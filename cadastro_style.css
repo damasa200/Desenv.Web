@@ -175,7 +175,7 @@
 
 @media screen and (max-width: 1064px) {
     .container {
-        width: 90%;
+        width: 100%;
         height: auto;
     }
     .input-group {
@@ -198,4 +198,5 @@
     .gender-input {
         margin-top: 0.5rem;
     }
+
 }
