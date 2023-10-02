@@ -29,20 +29,8 @@ O Search Fitness é a sua solução de bolso para encontrar academias, lojas de 
 ![Captura de Tela 3](screenshot3.png)
 *Localize lojas de roupas esportivas e obtenha direções.*
 
-## Instalação
-
-O Search Fitness está disponível para download em dispositivos Android e iOS. Basta visitar a loja de aplicativos correspondente e procurar por "Search Fitness".
-
-## Feedback
-
-Valorizamos muito o seu feedback. Se você encontrar algum problema ou tiver sugestões para melhorar o aplicativo, entre em contato conosco em support@searchfitnessapp.com.
-
 ## Equipe
 
-O Search Fitness é desenvolvido pela equipe de entusiastas do fitness da [Sua Empresa]. Estamos dedicados a fornecer as melhores ferramentas para ajudar você a alcançar seus objetivos de fitness.
+O Search Fitness é desenvolvido pela equipe de entusiastas do fitness da FuturTechMinds. Estamos dedicados a fornecer as melhores ferramentas para ajudar você a alcançar seus objetivos de fitness.
 
-## Licença
 
-Este aplicativo é distribuído sob a licença [nome da licença]. Para obter detalhes, consulte o arquivo [LICENSE.md].
-
-© [Ano] Search Fitness. Todos os direitos reservados.
