@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Login</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      text-align: center;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #4caf50;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    #signup-link {
+      display: block;
+      margin-top: 10px;
+      color: #333;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <form id="loginForm">
+    <h2>Login</h2>
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="password">Senha:</label>
+    <input type="password" id="password" name="password" required>
+
+    <button type="button" onclick="validateLogin()">Entrar</button>
+
+    <a href="cadastro.html" id="signup-link">Não tem uma senha? Cadastre agora.</a>
+  </form>
+
+  <script>
+    function validateLogin() {
+      var email = document.getElementById('email').value;
+      var password = document.getElementById('password').value;
+
+      // Adicione a lógica de validação aqui (por exemplo, verificação de banco de dados ou condições simples)
+
+      if (email === "usuario@example.com" && password === "senha123") {
+        alert("Login bem-sucedido!");
+        // Redirecionar ou executar outras ações após o login bem-sucedido
+      } else {
+        alert("Credenciais inválidas. Tente novamente.");
+      }
+    }
+  </script>
+
+</body>
+</html>
